@@ -29,7 +29,8 @@ nav {
         font-family: 'Itim', cursive;
         align-items: center;
     }
-    #section-button, .button{
+    #section-button{
+        cursor: pointer;
         font-size: 22px;
         font-family: 'Itim', cursive;
         background-color: rgb(38, 38, 199);
@@ -38,6 +39,9 @@ nav {
         border: 0;
         padding: 8px 20px;
     }
+    #section-button:hover {
+        scale: 1.03;
+    }
 
 
 ul {
@@ -45,6 +49,7 @@ ul {
     gap: 30px;
 }
 li {
+    cursor: pointer;
     list-style: none;
 }
 
@@ -96,17 +101,50 @@ p {
     font-size: 25px;
     gap: 50px;
 }   
+#form-submit {
+    cursor: pointer;
+    padding-top: 0;
+    color: beige;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    background-color: rgb(38, 38, 199);
+    border-radius: 8px;
+    color: aliceblue;
+    border: 0;
+    padding: 0px 20px;
+    width: 150px;
+    height: 45px;
+    align-self: center;
+}
+    #form-submit:hover {
+        scale: 1.03;
+    }
+
 input, .input {
+    cursor: pointer;
     border: 0px;
     background-color: transparent;
 }
+    input:hover {
+        scale: 1.05;
+    }
+    .input:hover {
+        scale: 1.05;
+    }
+
 .fa-shield-heart, .fa-star-half-stroke{
     color: darkgoldenrod;
+    text-align: center;
 }
-.fa-clock,.fa-syringe, .fa-calendar, .fa-location-dot, .fa-viruses, .fa-shield, .fa-ban, .fa-mattress-pillow, .fa-chart-area, .fa-bed, .fa-person-walking{
-    color: rgb(37, 37, 70);
-    padding: 4px;
-    background-color: rgba(255, 255, 197, 0.89);
+.fa-clock,.fa-syringe, .fa-calendar, .fa-location-dot, .fa-viruses, .fa-shield, .fa-ban, .fa-mattress-pillow, .fa-chart-area, .fa-bed, .fa-person-walking,.fa-message, .fa-file-video, .fa-comment, .fa-phone{
+    color: rgb(60, 124, 133);
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    padding: 5px 5px;
+    align-items: center;
+    margin: 3px;
+    background-color: rgba(255, 255, 209, 0.89);
     border-radius: 3px;
 }
 
@@ -132,7 +170,7 @@ input, .input {
     margin-top: -80px;
     margin-left: 150px;
     width: 450px;
-}   .h1-section2, .h1-section3 {
+}   .h1-section2, .h1-section3{
     font-size: 40px;
 }
 
@@ -178,7 +216,7 @@ input, .input {
 
 #image-section3 {
     width: 600px;
-    margin-top: 0;
+    margin-top: 55px;
     overflow: hidden;
 }
 .accordion {
@@ -208,3 +246,98 @@ input, .input {
     background-color: white;
     overflow: hidden;
 }
+
+.section4 {
+    background-image: linear-gradient(to bottom, white, rgba(219, 255, 253, 0.493), rgba(219, 255, 253, 0.493), white);
+    margin: 0;
+}
+.text-section4 {
+    padding-top: 0;
+    width: 500px;
+    padding-left: 90px;
+    margin-left: 290px;
+}
+
+.text-section4 > h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.contact {
+    display: flex;
+}
+#contact-img {
+    margin-top: -120px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.grids4 {
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+    padding: 40px 50px 40px 120px;
+    gap: 30px;
+}
+.grid4-item {
+    text-align: right;
+    border: solid 1px rgba(255, 244, 244, 0.541);
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    height: 180px;
+}
+    .grid4-item:hover {
+        box-shadow: 1px 2px 4px 2px;
+        scale: 1.02;
+    }
+
+.grid4-button {
+    cursor: pointer;
+    color: beige;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    background-color: rgb(38, 38, 199);
+    border-radius: 8px;
+    color: aliceblue;
+    width: 150px;
+    align-self: center;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.about {
+    display: flex;
+    gap: 100px;
+}
+.pre-footer {
+    padding: 0 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(22, 22, 80);
+}
+
+#title-about {
+    font-size:18px;
+    margin-bottom: 10px;
+    color: rgb(22, 22, 80); 
+}
+
+
