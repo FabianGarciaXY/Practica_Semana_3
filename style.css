@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/*
+
+    font-family: 'Itim', cursive;
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+    color: rgb(54, 60, 65);
+}
+nav {
+    background-color: rgba(224, 252, 252, 0.877);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 7%;
+    border-bottom: 3px whitesmoke solid;
+    font-size: 30px;
+    align-items: center;
+}   #logo {
+        font-size: 30px;
+    }
+    #sections {
+        font-size: 22px;
+        font-family: 'Itim', cursive;
+        align-items: center;
+    }
+    #section-button, .button{
+        font-size: 22px;
+        font-family: 'Itim', cursive;
+        background-color: rgb(38, 38, 199);
+        border-radius: 8px;
+        color: aliceblue;
+        border: 0;
+        padding: 8px 20px;
+    }
+
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+li {
+    list-style: none;
+}
+
+.principal {
+    background-image: url(./image/background.jpg);  
+}
+
+.top {
+    display: flex;
+    padding-top: -30px;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 10%;
+    background-color: rgba(240, 248, 255, 0.904);
+}
+h1 {
+    font-size: 50px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+figure {
+    margin: 0;
+}
+img {
+    margin-top: -30%;
+    max-width: 650px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#form, form {
+    margin-top: 36%;
+    display: flex;
+    position: absolute;
+    background-color: rgba(255, 254, 247, 0.911);
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 6px 2px;
+    font-size: 25px;
+    gap: 50px;
+}   
+input, .input {
+    border: 0px;
+    background-color: transparent;
+}
+.fa-shield-heart, .fa-star-half-stroke{
+    color: darkgoldenrod;
+}
+.fa-clock,.fa-syringe, .fa-calendar, .fa-location-dot, .fa-viruses, .fa-shield, .fa-ban, .fa-mattress-pillow, .fa-chart-area, .fa-bed, .fa-person-walking{
+    color: rgb(37, 37, 70);
+    padding: 4px;
+    background-color: rgba(255, 255, 197, 0.89);
+    border-radius: 3px;
+}
+
+
+.section2 {
+    margin-top: 120px;
+    background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.603), rgba(255, 255, 217, 0.945));
+}
+
+.grids1 {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: center;
+    gap: 70px;
+}
+.brand {
+    width: 210px;
+    opacity: 0.4;
+}
+
+.text-section2 {
+    margin-top: -80px;
+    margin-left: 150px;
+    width: 450px;
+}   .h1-section2, .h1-section3 {
+    font-size: 40px;
+}
+
+.grids2 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 250, 0.692), rgba(240, 240, 255, 0.637), white);
+}   .benefits {
+    padding: 1%;
+    box-shadow: 1px 1px 2px;
+    border-radius: 3px;
+    border: 1px rgba(217, 217, 248, 0.514);
+    width: 170px;
+}   .benefits > span {
+    font-size: 21px;
+}   .benefits > p {
+    font-size: 16px;
+}   
+    .benefits:hover {
+        transform: scale(1.05);
+        box-shadow: 1px 3px 3px 3px;
+        background-image: linear-gradient(to right,  rgba(250, 255, 255, 0.692), rgba(242, 255, 254, 0.671), white);
+    }
+
+
+.section3 {
+    display: flex;
+    background-image: linear-gradient(to bottom, white, rgba(219, 219, 255, 0.493), white);
+}
+.background3 {
+    background-image: url('./image/background2.jpg');
+}
+
+.preparations {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 200px 180px 20px;
+}
+
+#image-section3 {
+    width: 600px;
+    margin-top: 0;
+    overflow: hidden;
+}
+.accordion {
+    padding: 50px;
+    background-color: rgba(255, 255, 240, 0.438);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+.recomendations-acordion {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 4px;
+}
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
