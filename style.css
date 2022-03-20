@@ -94,13 +94,17 @@ p {
     margin-top: 36%;
     display: flex;
     position: absolute;
-    background-color: rgba(255, 254, 247, 0.911);
+    background-color: rgba(255, 254, 247, 0.774);
     padding: 20px 40px;
     border-radius: 5px;
-    box-shadow: 5px 3px 6px 2px;
+    box-shadow: 3px 4px 6px;
     font-size: 25px;
     gap: 50px;
 }   
+    #form:hover {
+        box-shadow: 3px 4px 12px;
+    }
+
 #form-submit {
     cursor: pointer;
     padding-top: 0;
@@ -110,7 +114,7 @@ p {
     background-color: rgb(38, 38, 199);
     border-radius: 8px;
     color: aliceblue;
-    border: 0;
+    border: 2px gray solid;
     padding: 0px 20px;
     width: 150px;
     height: 45px;
